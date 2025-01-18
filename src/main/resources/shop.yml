@@ -1,0 +1,251 @@
+categories:
+  weapons:
+    displayName: '&eОружие'
+    description:
+      - '&fЗдесь будут оружия'
+      - '&fКак то так'
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      amount: 1
+  armors:
+    displayName: '&eБроня'
+    description:
+      - '&fЗдесь будет броня'
+      - '&fКак то так'
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+      amount: 1
+  instruments:
+    displayName: '&eИнструменты'
+    description:
+      - '&fЗдесь будут инструменты'
+      - '&fКак то так'
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_PICKAXE
+      amount: 1
+  blocks:
+    displayName: '&eБлоки'
+    description:
+      - '&fЗдесь будет блоки'
+      - '&fКак то так'
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 1
+  other:
+    displayName: '&eДругое'
+    description:
+      - '&fЗдесь будет другое'
+      - '&fКак то так'
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: TNT
+      amount: 1
+products:
+  sandstone:
+    category: blocks
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SANDSTONE
+        amount: 16
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+  dirt:
+    category: blocks
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIRT
+        amount: 32
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+  diamond:
+    category: other
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+  leather_chestplate:
+    category: armor
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+  wood_sword:
+    category: weapon
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        amount: 1
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_AXE
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+  wood:
+    category: blocks
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD
+        amount: 16
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+  glass:
+    category: blocks
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GLASS
+        amount: 4
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+  obsidian:
+    category: blocks
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: OBSIDIAN
+        amount: 2
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 1
+  stone:
+    category: blocks
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 8
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 2
+  iron_pickaxe:
+    category: instruments
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_PICKAXE
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 6
+  diam_pickaxe:
+    category: instruments
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 5
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 2
+  bow:
+    category: weapon
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 30
+  arrow:
+    category: weapon
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 8
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 8
+  fireball:
+    category: other
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: FIREBALL
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 20
+  tnt:
+    category: other
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: TNT
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 3
+  pearl:
+    category: other
+    items:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 1
+    price:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 4

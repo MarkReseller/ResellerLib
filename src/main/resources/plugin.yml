@@ -1,0 +1,17 @@
+name: NetherWars
+version: 1.0
+main: lv.reseller.netherwars.NetherWarsPlugin
+depend: ["SlimeWorldManager"]
+commands:
+  decor: {}
+  logic: {}
+  loadgamedata: {}
+  savegamedata: {}
+  test: {}
+  join: {}
+  quit: {}
+  invitemode: {}
+  invite: {}
+  invitelist: {}
+
+

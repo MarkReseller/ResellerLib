@@ -1,0 +1,15 @@
+{
+ "scoreboard": {
+   "header": {
+     "static": "&4&lNetherWars",
+     "animation": [
+       {"text": "&c&lNetherWars", "ticks": 40},
+       {"text": "&c&lNet&fherW&c&lars", "ticks": 1},
+       {"text": "&fNet&c&lherW&fars", "ticks": 1},
+       {"text": "&fNet&c&lherW&fars", "ticks": 1},
+       {"text": "&c&lNe&fthe&c&lr&fWa&c&lrs", "ticks": 1},
+       {"text": "&c&lN&fe&c&ltherW&fars", "ticks": 1}
+     ]
+   }
+ }
+}

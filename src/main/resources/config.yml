@@ -1,0 +1,23 @@
+serverName: 'netherwars'
+lobby: '-184.5,100,226.5'
+respawn: '-184.5,100,226.5'
+team-capacity: 2
+members-to-starting: 2
+mexus-health: 10
+teams:
+  RED:
+    spawn: '-191.5,89,226.5'
+    mexus: '-189.5,90,228'
+    trader: '-189.5,90,228'
+  BLUE:
+    spawn: '-177.5,89,226.5'
+    mexus: '-179.5,90,224'
+    trader: '-189.5,90,228'
+  GREEN:
+    spawn: '-184.5,89,233.5'
+    mexus: '-182.5,90,231'
+    trader: '-189.5,90,228'
+  YELLOW:
+    spawn: '-184.5,89,219.5'
+    mexus: '-186.5,90,221'
+    trader: '-189.5,90,228'
